@@ -5,7 +5,7 @@ let screenValue = "";
 for (item of buttons) {
     item.addEventListener('click', (e) => {
         buttonText = e.target.value;
-        console.log("The button content is ", buttonText);
+        // console.log("The button content is ", buttonText);
         if (buttonText === 'Clear') {
             screenValue = "";
             result.value = screenValue;
